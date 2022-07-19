@@ -19,7 +19,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
 
 
     steps:
