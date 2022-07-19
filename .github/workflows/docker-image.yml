@@ -25,6 +25,5 @@ jobs:
     - name: Build App with gradlew
       run: ./gradlew build
 
-    - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build -t java-app . --tag my-image-name:$(date +%s)
